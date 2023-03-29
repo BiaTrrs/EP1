@@ -1,0 +1,117 @@
+header {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aae4ffcc;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff;
+    transition: all 1s ease-in-out;
+  }
+  
+  header:hover {
+    margin: 20px;
+    transform: scale(1.2);
+    box-shadow: 15px 15px 30px #bebebe,
+      -15px -15px 30px #ffffff;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: all 1s ease-in-out;
+  }
+  
+  nav ul :hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    text-shadow: #bbb -5px 5px 10px;
+  }
+  
+  nav ul li {
+    margin: 20px;
+  }
+  
+  .conteudo {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagem {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 50px;
+    border-radius: 30px;
+    transition: all 1s ease-in-out;
+  }
+  
+  .imagem:hover {
+    transform: scale(1.1);
+    box-shadow: 15px 15px 30px #bebebe,
+      -15px -15px 30px #ffffff;
+  }
+  
+  .imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    transition: all 1s ease-in-out;
+  }
+  
+  
+  
+  .texto {
+    max-width: 800px;
+    margin: 50px;
+    padding: 0 20px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff;
+    transition: all 1s ease-in-out;
+  }
+  
+  .texto:hover {
+    transform: scale(1.2);
+    box-shadow: 15px 15px 30px #bebebe,
+      -15px -15px 30px #ffffff;
+  }
+  
+  .texto h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .texto .titulo {
+    color: #3b3b3b;
+    text-shadow: 3px 3px 0px #fff;
+    font-size: 34px;
+  }
+  
+  .texto p {
+    color: #3b3b3b;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #aae4ffcc;
+    color: #333;
+    font-size: 24px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff;
+  }
